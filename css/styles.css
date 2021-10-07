@@ -1,0 +1,265 @@
+html {
+   margin: 0;
+   font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: #FFFFFF;
+  margin: 0 auto;
+}
+
+h1 {
+  color: var(--darkgray);
+  font-size: 64px;
+}
+
+h3 {
+  color: var(--darkgray);
+  font-size: 36px;
+}
+
+h4 {
+  color: #999999;
+  font-size: 22px;
+}
+:root {
+  --blue: #73A9E8;
+  --lightgray: #D8D8D8;
+  --darkgray: #4A4A4A;
+  --fullwidth: 100%;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+.font-darkgray {
+  color: var(--darkgray);
+}
+
+.bold {
+  font-weight: bold;
+}
+/* NAV */
+header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  background: white;
+  height: 64px;
+}
+
+header img {
+  margin-left: 24px;
+  height: 32px;
+}
+
+header a {
+  color: #4A4A4A;
+  font-size: 26px;
+  text-decoration: none;
+  margin: 0 8px;
+
+}
+.header-name {
+  font-size: 26px;
+}
+
+.colmar {
+  color: #4A4A4A;
+  font-weight: bolder;
+}
+
+.academy {
+  color: #A2A2A2;
+}
+
+.header-links {
+margin-left: auto;
+margin-right: 16px;
+}
+
+/* EMPTY DIV */
+
+.empty-div {
+  height: 64px;
+  margin: 0;
+}
+
+/* HERO SECTION */
+.banner-container {
+  background-color: var(--lightgray);
+  display: flex;
+  align-items: center;
+}
+
+.banner-img {
+  max-width: 1100px;
+  margin: 32px 24px;
+}
+
+.banner-text-box {
+  margin-right: 32px;
+}
+
+.banner-button {
+  color: #FFFFFF;
+  font-size: 32px;
+  padding: 8px 200px;
+  background-color: var(--darkgray);
+}
+
+/* INFORMATION SECTION */
+.information-container {
+  display: flex;
+}
+
+.information-left {
+    max-width: 1100px;
+    margin: 32px 24px;
+    line-height: 30px;
+}
+
+.information-img {
+  max-width: 1100px;
+}
+
+.information-header {
+  margin: 38px 0;
+}
+
+.information-right {
+  width: 100%;
+  border-left: 2px solid var(--lightgray);
+  flex-direction: column;
+  justify-content: center;
+}
+
+.information-tile-img {
+  margin: 16px;
+  width: 35%;
+  height: auto;
+}
+
+.information-first-tile {
+  margin-top: 16px;
+}
+
+.information-tile {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  border-bottom: 2px solid var(--lightgray);
+}
+
+.lightgray-bg {
+    background-color: var(--lightgray);
+}
+
+.white-bg {
+  background-color: #FFFFFF;
+}
+.information-tile-text {
+  margin-right: 32px;
+  line-height: 24px;
+}
+
+.information-tile a {
+  text-decoration: none;
+  color: var(--blue);
+}
+
+/* COURSE SECTION */
+
+.course-container {
+  background-color: var(--lightgray);
+  text-align: center;
+  border: 1px solid var(--lightgray);
+}
+
+.course-header {
+  margin-bottom: 0;
+}
+
+.course-tile-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.course-tile {
+  max-width: 480px;
+  background-color: #FFFFFF;
+  margin: 32px;
+}
+
+.course-tile img {
+  width: 100%;
+}
+
+.course-tile-text {
+  text-align: left;
+  margin: 24px;
+  line-height: 32px;
+}
+
+.thesis-container {
+  text-align: center;
+  margin: 32px 24px;
+}
+
+.thesis-column-container {
+  display: flex;
+}
+
+.thesis-left {
+  max-width: 1100px;
+  text-align: left;
+}
+
+.thesis-left video {
+  width: 100%;
+}
+
+.thesis-right {
+  display: flex;
+  flex-direction: column;
+}
+
+.thesis-right img {
+margin: 16px;
+}
+
+.thesis-tile {
+  margin-left: 24px;
+  width: 100%;
+  display: flex;
+  text-align: left;
+  align-items: center;
+}
+
+.thesis-tile-text {
+
+}
+
+footer {
+  border-top: 2px solid var(--lightgray);
+  width: 100%;
+  font-size: 22px;
+  color: #999999;
+}
+
+.footer-container {
+  margin: 16px 24px 60px 24px;
+  display: flex;
+}
+.footer-right {
+  margin-left: auto;
+  margin-right: 24px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #999999;
+}
